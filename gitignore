@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Trained model files — large, excluded from GitHub
+# (included in HF Spaces push — see docs/HUGGINGFACE_DEPLOY.md)
+saved_model/vae.pt
+saved_model/vae_best.pt
+saved_model/tokenizer.pkl
+saved_model/latents.pt
+# Keep these in git
+!saved_model/config.json
+!saved_model/.gitkeep
+
+# ZINC cache (large, regenerated on first run)
+saved_model/zinc_cache_*.txt
+
+# Receptor/protein files (download separately)
+receptors/*.pdbqt
+proteins/*.pdb
+!receptors/.gitkeep
+!proteins/.gitkeep
+
+# Static JS/fonts (run download_assets.py to get these)
+static/*.js
+static/*.woff2
+!static/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
