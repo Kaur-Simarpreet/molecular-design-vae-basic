@@ -3,7 +3,7 @@
 ## Step 1 — Create the repository on GitHub
 
 1. Go to https://github.com/new
-2. Repository name: `molecular-design-vae`
+2. Repository name: `molecular-design-vae-basic`
 3. Visibility: **Public**
 4. Do NOT initialise with README, .gitignore, or licence — we have those already
 5. Click **Create repository**
@@ -11,7 +11,7 @@
 ## Step 2 — Initialise git locally
 
 ```bash
-cd molecular-design-vae
+cd molecular-design-vae-basic
 
 git init
 git add .
@@ -21,7 +21,7 @@ git commit -m "Initial commit: VAE-based molecular design pipeline"
 ## Step 3 — Push
 
 ```bash
-git remote add origin https://github.com/Kaur-Simarpreet/molecular-design-vae.git
+git remote add origin https://github.com/Kaur-Simarpreet/molecular-design-vae-basic.git
 git branch -M main
 git push -u origin main
 ```
@@ -30,7 +30,7 @@ Replace `Kaur-Simarpreet` with your GitHub username.
 
 ## Step 4 — Verify
 
-Visit `https://github.com/Kaur-Simarpreet/molecular-design-vae` — the README should render with the comparison tables.
+Visit `https://github.com/Kaur-Simarpreet/molecular-design-vae-basic` — the README should render with the comparison tables.
 
 ## Notes on large files
 
